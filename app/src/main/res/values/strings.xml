@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Electric Drums</string>
+    <string name="kick_label">KICK</string>
+    <string name="snare_label">SNARE</string>
+    <string name="clap_label">CLAP</string>
+    <string name="closed_hat_label">CLOSED HAT</string>
+    <string name="closed_hat_2_label">CLOSED HAT 2</string>
+    <string name="open_hat_label">OPEN HAT</string>
+    <string name="open_hat_2_label">OPEN HAT 2</string>
+    <string name="cymbal_label">CYMBAL</string>
+</resources>

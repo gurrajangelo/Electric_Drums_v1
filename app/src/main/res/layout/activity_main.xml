@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/screen_background"
+    >
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:columnCount="2"
+        app:rowCount="4"
+        >
+
+        <Button
+            android:id="@+id/kick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kick_label"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/button_color"
+            android:onClick="playKick"
+            />
+
+        <Button
+            android:id="@+id/snare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/snare_label"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/button_color"
+            android:onClick="playSnare"
+            />
+
+        <Button
+            android:id="@+id/clap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clap_label"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/button_color"
+            android:onClick="playClap"
+            />
+
+        <Button
+            android:id="@+id/closedHat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/closed_hat_label"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/button_color"
+            android:onClick="playClosedHat"
+            />
+
+        <Button
+            android:id="@+id/closedHat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/closed_hat_2_label"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/button_color"
+            android:onClick="playClosedHat2"
+            />
+
+        <Button
+            android:id="@+id/openHat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_hat_label"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/button_color"
+            android:onClick="playOpenHat"
+            />
+
+        <Button
+            android:id="@+id/openHat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_hat_2_label"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/button_color"
+            android:onClick="playOpenHat2"
+            />
+
+        <Button
+            android:id="@+id/cymbal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cymbal_label"
+            style="@style/KeyStyle"
+            android:backgroundTint="@color/button_color"
+            android:onClick="playCymbal"
+            />
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

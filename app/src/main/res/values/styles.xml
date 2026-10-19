@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="KeyStyle">
+        <item name="layout_columnWeight">1</item> > peso colonna
+        <item name="layout_rowWeight">1</item> > peso riga
+        <item name="android:layout_margin">3dp</item> > margine
+        <item name="android:textSize">17sp</item>
+    </style>
+</resources>
